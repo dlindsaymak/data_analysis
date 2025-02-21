@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Having an Analysis Plan – Getting Started With Data Analysis</title>
+<title>Downloading Data from Qualtrics – Getting Started With Data Analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./downloading.html" rel="next">
-<link href="./record_keeping.html" rel="prev">
+<link href="./cleaning.html" rel="next">
+<link href="./analysis_plan.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./analysis_plan.html">Analysis Plan</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./downloading.html">Downloading from Qualtics</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -123,13 +123,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./analysis_plan.html" class="sidebar-item-text sidebar-link active">
+  <a href="./analysis_plan.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analysis Plan</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./downloading.html" class="sidebar-item-text sidebar-link">
+  <a href="./downloading.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Downloading from Qualtics</span></a>
   </div>
 </li>
@@ -145,16 +145,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#data-cleaning" id="toc-data-cleaning" class="nav-link active" data-scroll-target="#data-cleaning">Data Cleaning</a></li>
-  <li><a href="#preliminary-data-analysis" id="toc-preliminary-data-analysis" class="nav-link" data-scroll-target="#preliminary-data-analysis">Preliminary Data Analysis</a></li>
-  <li><a href="#hypothesis-testing" id="toc-hypothesis-testing" class="nav-link" data-scroll-target="#hypothesis-testing">Hypothesis Testing</a></li>
-  <li><a href="#exploratory-analyses" id="toc-exploratory-analyses" class="nav-link" data-scroll-target="#exploratory-analyses">Exploratory Analyses</a></li>
-  </ul>
-</nav>
+        
     <div class="quarto-margin-footer"><div class="margin-footer-item">
 <p>Created by Deb Lindsay 2025.</p>
 </div></div></div>
@@ -163,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Having an Analysis Plan</h1>
+<h1 class="title">Downloading Data from Qualtrics</h1>
 </div>
 
 
@@ -182,95 +173,65 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/planning.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%" alt="A picture of Will Ferrell in &quot;Elf&quot; grinning broadly. The text reads &quot;I just like to plan ahead. Planning ahead's my favorite&quot;"></p>
+<p><img src="images/all-the-data.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Excited stick figure screaming &quot;ALL THE DATA!!!&quot;"></p>
 </figure>
 </div>
-<p>Similar to Good Record Keeping, having an Analysis Plan is a critical component of <a href="https://spsp.org/resources/multimedia/experts/openscience">Open Science</a>. This will be something you often do before you start collecting data. An example Analysis Plan is here.</p>
-<p>Ideally you will have all your analyses planned out before your data collection is finished so you can just run through the analyses without spending time wondering what it is you have to do to answer your research questions.&nbsp;</p>
-<p>Your Analysis Plan will function like a to-do list that you follow. Each Analysis Plan will vary based on the study you are doing but it will composed of four sections:</p>
+<p>The very first step to analyzing your data is getting that data out of Qualtrics. <a href="https://www.qualtrics.com/support/survey-platform/data-and-analysis-module/data/download-data/export-data-overview/">I’m going to link the Qualtrics help page about downloading data HERE</a> in case they’ve changed things since I wrote this guide, but here are the steps currently.</p>
 <ol type="1">
-<li><p>Data Cleaning</p>
-<ol type="1">
-<li><p>Basic Cleaning</p></li>
-<li><p>Exclusions</p></li>
-</ol></li>
-<li><p>Preliminary Data Analyses</p>
-<ol type="1">
-<li><p>Check assumptions needed for Hypothesis Testing</p></li>
-<li><p>Distribution of variables across conditions&nbsp;</p></li>
-<li><p>Descriptive Statistics</p></li>
-</ol></li>
-<li><p>Hypothesis Testing</p></li>
-<li><p>Exploratory Analyses</p></li>
+<li><p>Log into your Qualtrics account</p></li>
+<li><p>Navigate to the survey you want to export your response from</p></li>
+<li><p>Click on the “Data &amp; Analysis” tab on the top menu</p></li>
 </ol>
-<section id="data-cleaning" class="level3">
-<h3 class="anchored" data-anchor-id="data-cleaning">Data Cleaning</h3>
-<p>This is everything you do to the data before you run any analyses on it.</p>
-<section id="basic-data-cleaning" class="level4">
-<h4 class="anchored" data-anchor-id="basic-data-cleaning">Basic Data Cleaning</h4>
-<p>You want to make a list here of all the things you need to do with your data to get it ready for analysis. Things like</p>
+<p>Click “Export &amp; Import”, then “Export Data”<br>
+<br>
+<img src="images/qualtrics1.png" class="img-fluid" style="width:30.0%"></p>
+<p>You will now get a pop-up that gives you a bunch of options on how you want your data downloaded.</p>
+<ol type="1">
+<li><p><strong>File Type</strong>: You want to export as a CSV. This is the most commonly used data document and you can then open it in many programs.</p></li>
+<li><p><strong>Download all fields</strong>: Yes, do this&nbsp;</p></li>
+<li><p><strong>Use numeric values</strong>: This is ideal, it will make sure you can analyze your likert scales. This records responses as numbers (e.g., 1 instead of “strongly disagree”)</p>
+<ol type="1">
+<li>NOTE: Make sure you have coded your responses correctly in Qualtrics otherwise your numbers could be weird (especially if you have done a lot of editing in your likert scales).&nbsp;</li>
+</ol></li>
+<li><p>Click open the <strong>More Options</strong> window and you might want to select the following:</p>
+<ol type="1">
+<li><p><strong>Compress data as .zip file</strong></p>
+<ol type="1">
+<li><strong>Useful if you have a VERY BIG data set and don’t want to wait forever for it to download</strong></li>
+</ol></li>
+<li><p><strong>Export viewing order data for randomized surveys</strong></p>
+<ol type="1">
+<li><strong>This will be relevant if you need to code for order of presentation and you do not have any embedded data that keeps track of that</strong></li>
+</ol></li>
+<li><p><strong>Split multi-value fields into columns</strong></p>
+<ol type="1">
+<li><strong>This is the default and you should keep it selected. Especially if you have matrix questions with multiple items on them.</strong></li>
+</ol></li>
+<li><p><strong>Use internal IDs in header</strong></p>
+<ol type="1">
+<li><strong>DO NOT Check this. This gives you the Qualtrics question id’s as the heading which are completely meaningless and will make running your analysis really difficult!</strong></li>
+</ol></li>
+</ol></li>
+</ol>
+<p><img src="images/qualtrics2.png" class="img-fluid" style="width:60.0%"></p>
+<p>Qualtrics will give your file a useful name based on the title of the survey and the date you downloaded it. You might want to rename it to make it shorter/easier for you (especially with uploading to R later on). But I recommend keeping the following details:</p>
 <ul>
-<li><p>Tidying up the labels</p></li>
-<li><p>Combining data from different sources</p></li>
-<li><p>Making sure the values are coded correctly</p></li>
-<li><p>Making sure your reversed items are scored correctly</p></li>
-<li><p>Removing your test subjects and any technical issues&nbsp;</p></li>
-<li><p>Calculating difference scores between pre and post tests</p></li>
+<li><p>A recognisable study name (e.g.&nbsp;ChoiceVCompliance)</p></li>
+<li><p>Where the participants are coming from. Especially important if you plan on collecting from different populations (e.g.&nbsp;ChoiceVComplianceSONA)</p></li>
+<li><p>Whether this is part 1 or part 2 of a study (e.g.&nbsp;CharStrength_Part1)</p></li>
+<li><p>The date you downloaded the data. This is <strong>super important</strong> if you are downloading an active study that is still collecting data. (e.g.&nbsp;CharStrength_Part1_Jan_19_2022)&nbsp;</p></li>
 </ul>
-<p>Think ahead of everything you’ll need to do to your data so it can be used. You can also add to this while you are collecting data if something comes up (e.g.&nbsp;a fire alarm goes off during one of your experiment sessions so you need to remove all the participants that were doing the study at that time).</p>
-</section>
-<section id="exclusions" class="level4">
-<h4 class="anchored" data-anchor-id="exclusions">Exclusions</h4>
-<p>Make a note in your analysis plan of your exclusion criteria. These are participants you will not include in the analyses you run. Common exclusion criteria are:</p>
-<ul>
-<li><p>Attrition (not finishing the study)</p></li>
-<li><p>Failing attention checks (be clear about your cut off for failing these checks)</p></li>
-<li><p>Detecting the purpose of a study that includes deception</p></li>
-<li><p>Having participated in a similar activity before</p></li>
-<li><p>Not currently being located in a particular state or country</p></li>
-</ul>
-<p>Your exclusion criteria will be specific to your study, but you should make note of your decision and why you are deciding to not include these participants in your Analysis Plan.</p>
-</section>
-</section>
-<section id="preliminary-data-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="preliminary-data-analysis">Preliminary Data Analysis</h3>
-<p>These are basic analyses that you need to run before you test your main hypotheses.&nbsp;</p>
-<section id="assumption-checking" class="level4">
-<h4 class="anchored" data-anchor-id="assumption-checking">Assumption Checking</h4>
-<p>In order for your hypothesis tests to be sound you need to show that your data met certain assumptions. You will need to report these in your write up so make sure you have a note of what you need to run depending on the types of tests you are planning.</p>
-<p>These are things like:</p>
-<ul>
-<li><p>Tests for normality</p></li>
-<li><p>Test for homogeneity of variance</p></li>
-</ul>
-</section>
-<section id="distribution-of-variables-across-conditions" class="level4">
-<h4 class="anchored" data-anchor-id="distribution-of-variables-across-conditions">Distribution of Variables across Conditions</h4>
-<p>This is similar to assumption checking, in that you need to make sure that your samples in each condition are relatively evenly distributed across variables that might act as confounds.&nbsp;</p>
-<p>Things to check here are:</p>
-<ul>
-<li><p>Demographics</p></li>
-<li><p>Any pre-test measures</p></li>
-</ul>
-<p>You might have other things that will matter if they aren’t balanced, so make sure you think about this in your Analysis Plan.</p>
-<p>Note what you are planning on running and what type of test you will need (chi-square for categorical or ANOVA for continuous).</p>
-</section>
-<section id="descriptive-statistics" class="level4">
-<h4 class="anchored" data-anchor-id="descriptive-statistics">Descriptive Statistics</h4>
-<p>You will also need to report the basic descriptive statistics for your sample. Make a plan of all the descriptives you will need to run and what type of tests they require chi-square for categorical or ANOVA for continuous).</p>
-</section>
-</section>
-<section id="hypothesis-testing" class="level3">
-<h3 class="anchored" data-anchor-id="hypothesis-testing">Hypothesis Testing</h3>
-<p>This is where you will plan out what type of tests you will need to run to answer your research question/s. You should have a clear hypothesis for each question and you should then convert that into a statistical test that will test if that hypothesis is statistically probable.</p>
-<p>Organize this section based on each of your hypotheses and make a note of what tests you will need to run.</p>
-</section>
-<section id="exploratory-analyses" class="level3">
-<h3 class="anchored" data-anchor-id="exploratory-analyses">Exploratory Analyses</h3>
-<p>Use an Exploratory Analyses section to make a note of any other analyses you think will be interesting to run but aren’t relevant to answer your main hypotheses.</p>
+<p>You’ll need to download all the surveys you need for your study. So, if you have a multi-part study, make sure you have every piece of data from every survey you issued. You’ll piece them all together during data cleaning later, but make sure you have them all downloaded, named clearly, and filed together first.</p>
+<p>Make sure to save your data in a place you can find it again. You can always re-download from Qualtrics, but it helps to know where your data is. Organization makes data analysis 100x easier.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/file names.png" class="img-fluid figure-img"></p>
+<figcaption>Don’t do this</figcaption>
+</figure>
+</div>
+<p>Now that you have your data we can think about getting it ready for analysis…</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -695,13 +656,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./record_keeping.html" class="pagination-link" aria-label="Record Keeping">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Record Keeping</span>
+      <a href="./analysis_plan.html" class="pagination-link" aria-label="Analysis Plan">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Analysis Plan</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./downloading.html" class="pagination-link" aria-label="Downloading from Qualtics">
-        <span class="nav-page-text">Downloading from Qualtics</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./cleaning.html" class="pagination-link" aria-label="Data Cleaning">
+        <span class="nav-page-text">Data Cleaning</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
