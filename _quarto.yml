@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Getting Started With Data Analysis"
-  margin-footer: "Created by Deb Lindsay 2025. \nContact me@debralindsay.com with any questions or comments."
+  margin-footer: "Created by Deb Lindsay 2025."
   announcement: 
       icon: info-circle
       dismissable: true

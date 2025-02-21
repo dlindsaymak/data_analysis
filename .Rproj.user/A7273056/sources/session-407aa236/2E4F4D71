@@ -3,7 +3,7 @@
     "path": "C:/Users/debra/Dropbox/Education/PhD_UCSD/Teaching/R Stuff for Teaching/data_analysis/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "3258666866",
+    "hash": "1068115935",
     "contents": "",
     "dirty": false,
     "created": 1740166753464.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "36,18",
-        "scrollLine": "22"
+        "cursorPosition": "5,46",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1740172475,
+    "lastKnownWriteTime": 1740172596,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1740172475930,
+    "last_content_update": 1740172596357,
     "read_only": false,
     "read_only_alternatives": []
 }
