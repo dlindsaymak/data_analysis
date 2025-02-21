@@ -1,0 +1,121 @@
+---
+title: "Having an Analysis Plan"
+website:
+  back-to-top-navigation: true
+---
+
+![](images/planning.jpeg){fig-alt="A picture of Will Ferrell in \"Elf\" grinning broadly. The text reads \"I just like to plan ahead. Planning ahead's my favorite\"" fig-align="center" width="50%"}
+
+Similar to Good Record Keeping, having an Analysis Plan is a critical component of [Open Science](https://spsp.org/resources/multimedia/experts/openscience).
+This will be something you often do before you start collecting data.
+An example Analysis Plan is here.
+
+Ideally you will have all your analyses planned out before your data collection is finished so you can just run through the analyses without spending time wondering what it is you have to do to answer your research questions. 
+
+Your Analysis Plan will function like a to-do list that you follow.
+Each Analysis Plan will vary based on the study you are doing but it will composed of four sections:
+
+1.  Data Cleaning
+
+    1.  Basic Cleaning
+
+    2.  Exclusions
+
+2.  Preliminary Data Analyses
+
+    1.  Check assumptions needed for Hypothesis Testing
+
+    2.  Distribution of variables across conditions 
+
+    3.  Descriptive Statistics
+
+3.  Hypothesis Testing
+
+4.  Exploratory Analyses
+
+### Data Cleaning
+
+This is everything you do to the data before you run any analyses on it.
+
+#### Basic Data Cleaning
+
+You want to make a list here of all the things you need to do with your data to get it ready for analysis.
+Things like
+
+-   Tidying up the labels
+
+-   Combining data from different sources
+
+-   Making sure the values are coded correctly
+
+-   Making sure your reversed items are scored correctly
+
+-   Removing your test subjects and any technical issues 
+
+-   Calculating difference scores between pre and post tests
+
+Think ahead of everything you’ll need to do to your data so it can be used.
+You can also add to this while you are collecting data if something comes up (e.g. a fire alarm goes off during one of your experiment sessions so you need to remove all the participants that were doing the study at that time).
+
+#### Exclusions
+
+Make a note in your analysis plan of your exclusion criteria.
+These are participants you will not include in the analyses you run.
+Common exclusion criteria are:
+
+-   Attrition (not finishing the study)
+
+-   Failing attention checks (be clear about your cut off for failing these checks)
+
+-   Detecting the purpose of a study that includes deception
+
+-   Having participated in a similar activity before
+
+-   Not currently being located in a particular state or country
+
+Your exclusion criteria will be specific to your study, but you should make note of your decision and why you are deciding to not include these participants in your Analysis Plan.
+
+### Preliminary Data Analysis
+
+These are basic analyses that you need to run before you test your main hypotheses. 
+
+#### Assumption Checking
+
+In order for your hypothesis tests to be sound you need to show that your data met certain assumptions.
+You will need to report these in your write up so make sure you have a note of what you need to run depending on the types of tests you are planning.
+
+These are things like:
+
+-   Tests for normality
+
+-   Test for homogeneity of variance
+
+#### Distribution of Variables across Conditions
+
+This is similar to assumption checking, in that you need to make sure that your samples in each condition are relatively evenly distributed across variables that might act as confounds. 
+
+Things to check here are:
+
+-   Demographics
+
+-   Any pre-test measures
+
+You might have other things that will matter if they aren’t balanced, so make sure you think about this in your Analysis Plan.
+
+Note what you are planning on running and what type of test you will need (chi-square for categorical or ANOVA for continuous).
+
+#### Descriptive Statistics
+
+You will also need to report the basic descriptive statistics for your sample.
+Make a plan of all the descriptives you will need to run and what type of tests they require chi-square for categorical or ANOVA for continuous).
+
+### Hypothesis Testing
+
+This is where you will plan out what type of tests you will need to run to answer your research question/s.
+You should have a clear hypothesis for each question and you should then convert that into a statistical test that will test if that hypothesis is statistically probable.
+
+Organize this section based on each of your hypotheses and make a note of what tests you will need to run.
+
+### Exploratory Analyses
+
+Use an Exploratory Analyses section to make a note of any other analyses you think will be interesting to run but aren’t relevant to answer your main hypotheses.

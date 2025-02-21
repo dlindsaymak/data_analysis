@@ -1,0 +1,79 @@
+---
+title: "Downloading Data from Qualtrics"
+website:
+  back-to-top-navigation: true
+---
+
+![](images/all-the-data.jpeg){fig-alt="Excited stick figure screaming \"ALL THE DATA!!!\"" fig-align="center" width="60%"}
+
+The very first step to analyzing your data is getting that data out of Qualtrics.
+[I’m going to link the Qualtrics help page about downloading data HERE](https://www.qualtrics.com/support/survey-platform/data-and-analysis-module/data/download-data/export-data-overview/) in case they’ve changed things since I wrote this guide, but here are the steps currently.
+
+1.  Log into your Qualtrics account
+
+2.  Navigate to the survey you want to export your response from
+
+3.  Click on the “Data & Analysis” tab on the top menu
+
+Click “Export & Import”, then “Export Data”\
+\
+![](images/qualtrics1.png){width="30%"}
+
+You will now get a pop-up that gives you a bunch of options on how you want your data downloaded.
+
+1.  **File Type**: You want to export as a CSV.
+    This is the most commonly used data document and you can then open it in many programs.
+
+2.  **Download all fields**: Yes, do this 
+
+3.  **Use numeric values**: This is ideal, it will make sure you can analyze your likert scales.
+    This records responses as numbers (e.g., 1 instead of “strongly disagree”)
+
+    1.  NOTE: Make sure you have coded your responses correctly in Qualtrics otherwise your numbers could be weird (especially if you have done a lot of editing in your likert scales). 
+
+4.  Click open the **More Options** window and you might want to select the following:
+
+    1.  **Compress data as .zip file**
+
+        1.  **Useful if you have a VERY BIG data set and don’t want to wait forever for it to download**
+
+    2.  **Export viewing order data for randomized surveys**
+
+        1.  **This will be relevant if you need to code for order of presentation and you do not have any embedded data that keeps track of that**
+
+    3.  **Split multi-value fields into columns**
+
+        1.  **This is the default and you should keep it selected. Especially if you have matrix questions with multiple items on them.**
+
+    4.  **Use internal IDs in header**
+
+        1.  **DO NOT Check this. This gives you the Qualtrics question id’s as the heading which are completely meaningless and will make running your analysis really difficult!**
+
+![](images/qualtrics2.png){width="60%"}
+
+Qualtrics will give your file a useful name based on the title of the survey and the date you downloaded it.
+You might want to rename it to make it shorter/easier for you (especially with uploading to R later on).
+But I recommend keeping the following details:
+
+-   A recognisable study name (e.g. ChoiceVCompliance)
+
+-   Where the participants are coming from.
+    Especially important if you plan on collecting from different populations (e.g. ChoiceVComplianceSONA)
+
+-   Whether this is part 1 or part 2 of a study (e.g. CharStrength_Part1)
+
+-   The date you downloaded the data.
+    This is **super important** if you are downloading an active study that is still collecting data.
+    (e.g. CharStrength_Part1_Jan_19_2022) 
+
+You’ll need to download all the surveys you need for your study.
+So, if you have a multi-part study, make sure you have every piece of data from every survey you issued.
+You’ll piece them all together during data cleaning later, but make sure you have them all downloaded, named clearly, and filed together first.
+
+Make sure to save your data in a place you can find it again.
+You can always re-download from Qualtrics, but it helps to know where your data is.
+Organization makes data analysis 100x easier.
+
+![Don't do this](images/file names.png){fig-align="center"}
+
+Now that you have your data we can think about getting it ready for analysis…

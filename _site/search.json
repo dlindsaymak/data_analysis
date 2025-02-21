@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Getting Started With Data Analysis",
+    "section": "",
+    "text": "Beginning with data analysis can be really overwhelming. You have a bunch of responses on your survey but you don’t know what to do next. Here’s a step-by-step guide that can help you get started taking all those responses and turning them into something meaningful.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#what-this-guide-covers",
+    "href": "index.html#what-this-guide-covers",
+    "title": "Getting Started With Data Analysis",
+    "section": "What this guide covers",
+    "text": "What this guide covers\nThis guide will take you through the first basic steps to get familiar with your data and prepare for more detailed analyses. Other documents will go into more detail about those specific analyses that allow you to answer your research questions. \n\nGood Record Keeping\nDeveloping an Analysis Plan\nDownloading Data from Qualtrics\nCleaning Data (AKA Getting Data ready for analysis)",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "record_keeping.html",
+    "href": "record_keeping.html",
+    "title": "Good Record Keeping",
+    "section": "",
+    "text": "Keeping good notes while you are working on your studies is essential. It is a key feature to creating replicable experiments and fundamental to conducting Open Science. You should always aim for another person to be able to see where you are with your study (at any time point), be able to understand what you have done so far, and also be able to continue the study without disruption.\nOur lab is big on collaboration so create your documents with these people in mind:\nCreated by Deb Lindsay 2025. Contact me@debralindsay.com with any questions or comments.",
+    "crumbs": [
+      "Record Keeping"
+    ]
+  },
+  {
+    "objectID": "record_keeping.html#before-analysis",
+    "href": "record_keeping.html#before-analysis",
+    "title": "Good Record Keeping",
+    "section": "Before Analysis",
+    "text": "Before Analysis\nBefore you even start analyzing data you want to be thinking about keeping good records. While you are developing your study you will have several clear documents that you will refer back to during analysis. These include:\n\nA spreadsheet of all your variables/items \n\nDetails where they came from, how you plan to use them in your analysis, and any notes on these items\n\nAn Analysis Plan\n\nExactly how you will deal with your data once you have collected it\n\n\nCreating your analysis plan is discussed below. Creating the spreadsheet will be discussed in another guide.\nOnce you have your data and you are cleaning it up (see the instructions below) you should be keeping notes of literally everything you do. If you decide to clean your data in Excel, then create a text document that records everything you do to that data so you can replicate it. If you use R (which I recommend) you can keep notes using # that describes what every piece of code means. I’m always of the opinion that more notes are better. It doesn’t matter if it seems redundant, add the note because you (or another person) will be grateful for those notes later.",
+    "crumbs": [
+      "Record Keeping"
+    ]
+  },
+  {
+    "objectID": "record_keeping.html#during-analysis",
+    "href": "record_keeping.html#during-analysis",
+    "title": "Good Record Keeping",
+    "section": "During Analysis",
+    "text": "During Analysis\nEvery step of the analysis process needs to be recorded. As with your data cleaning, make notes of every analysis you do and the results of these analyses. \nI recommend creating an Analysis Document (example here) that is based on your Analysis Plan and records everything you do during your analysis. This way you can refer back to this when you are writing up your results to see exactly what you did at what step.\nSimilarly, keep good notes in your R script for your analyses. If you have lots of different analyses to run I recommend creating different R script files to make it easier to locate (e.g. Preliminary analysis, hypothesis testing, exploratory analysis, factor analyses). But make sure you note if you need to run any other scripts for that particular script to run. Add this to the top of your R script so you quickly see what needs to be done. This way you aren’t pulling your hair out wondering why your script isn’t running.\nAn example of the notes at the top of one of my R scripts:\n# Exploratory Analyses for Choice vs. Compliance Study\n# Run the following scripts before working on this code:\n# CvC_cleaning.R\n# CvC_prelim.R\n\n# Make sure the following packages are installed\n\n#install.packages('tidyverse') \n#install.packages('Hmisc') #for correlations \n#install.packages('emmeans') #estimated means",
+    "crumbs": [
+      "Record Keeping"
+    ]
+  },
+  {
+    "objectID": "record_keeping.html#after-analysis",
+    "href": "record_keeping.html#after-analysis",
+    "title": "Good Record Keeping",
+    "section": "After Analysis",
+    "text": "After Analysis\nEven after analysis you’ll have record keeping that needs to be updated. You’ll inevitably get feedback on your results in lab meetings that you’ll need to note. Keep these in your analysis document under a section called “to be looked at” or similar. \nYou should also include a brief write up of your analyses in your Analysis document so you can easily refer to them when writing a paper or presenting results from your study.",
+    "crumbs": [
+      "Record Keeping"
+    ]
+  },
+  {
+    "objectID": "analysis_plan.html",
+    "href": "analysis_plan.html",
+    "title": "Having an Analysis Plan",
+    "section": "",
+    "text": "Similar to Good Record Keeping, having an Analysis Plan is a critical component of Open Science. This will be something you often do before you start collecting data. An example Analysis Plan is here.\nIdeally you will have all your analyses planned out before your data collection is finished so you can just run through the analyses without spending time wondering what it is you have to do to answer your research questions. \nYour Analysis Plan will function like a to-do list that you follow. Each Analysis Plan will vary based on the study you are doing but it will composed of four sections:\n\nData Cleaning\n\nBasic Cleaning\nExclusions\n\nPreliminary Data Analyses\n\nCheck assumptions needed for Hypothesis Testing\nDistribution of variables across conditions \nDescriptive Statistics\n\nHypothesis Testing\nExploratory Analyses\n\n\nData Cleaning\nThis is everything you do to the data before you run any analyses on it.\n\nBasic Data Cleaning\nYou want to make a list here of all the things you need to do with your data to get it ready for analysis. Things like\n\nTidying up the labels\nCombining data from different sources\nMaking sure the values are coded correctly\nMaking sure your reversed items are scored correctly\nRemoving your test subjects and any technical issues \nCalculating difference scores between pre and post tests\n\nThink ahead of everything you’ll need to do to your data so it can be used. You can also add to this while you are collecting data if something comes up (e.g. a fire alarm goes off during one of your experiment sessions so you need to remove all the participants that were doing the study at that time).\n\n\nExclusions\nMake a note in your analysis plan of your exclusion criteria. These are participants you will not include in the analyses you run. Common exclusion criteria are:\n\nAttrition (not finishing the study)\nFailing attention checks (be clear about your cut off for failing these checks)\nDetecting the purpose of a study that includes deception\nHaving participated in a similar activity before\nNot currently being located in a particular state or country\n\nYour exclusion criteria will be specific to your study, but you should make note of your decision and why you are deciding to not include these participants in your Analysis Plan.\n\n\n\nPreliminary Data Analysis\nThese are basic analyses that you need to run before you test your main hypotheses. \n\nAssumption Checking\nIn order for your hypothesis tests to be sound you need to show that your data met certain assumptions. You will need to report these in your write up so make sure you have a note of what you need to run depending on the types of tests you are planning.\nThese are things like:\n\nTests for normality\nTest for homogeneity of variance\n\n\n\nDistribution of Variables across Conditions\nThis is similar to assumption checking, in that you need to make sure that your samples in each condition are relatively evenly distributed across variables that might act as confounds. \nThings to check here are:\n\nDemographics\nAny pre-test measures\n\nYou might have other things that will matter if they aren’t balanced, so make sure you think about this in your Analysis Plan.\nNote what you are planning on running and what type of test you will need (chi-square for categorical or ANOVA for continuous).\n\n\nDescriptive Statistics\nYou will also need to report the basic descriptive statistics for your sample. Make a plan of all the descriptives you will need to run and what type of tests they require chi-square for categorical or ANOVA for continuous).\n\n\n\nHypothesis Testing\nThis is where you will plan out what type of tests you will need to run to answer your research question/s. You should have a clear hypothesis for each question and you should then convert that into a statistical test that will test if that hypothesis is statistically probable.\nOrganize this section based on each of your hypotheses and make a note of what tests you will need to run.\n\n\nExploratory Analyses\nUse an Exploratory Analyses section to make a note of any other analyses you think will be interesting to run but aren’t relevant to answer your main hypotheses.",
+    "crumbs": [
+      "Analysis Plan"
+    ]
+  }
+]

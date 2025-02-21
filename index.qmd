@@ -1,11 +1,22 @@
 ---
-title: "data_analysis"
+title: "Getting Started With Data Analysis"
 ---
 
-This is a Quarto website.
+![](images/confused%20math.png){fig-alt="A meme of a lady looking confused at many math equations in front of her face" fig-align="center" width="60%"}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Beginning with data analysis can be really overwhelming.
+You have a bunch of responses on your survey but you don’t know what to do next.
+Here’s a step-by-step guide that can help you get started taking all those responses and turning them into something meaningful. 
 
-```{r}
-1 + 1
-```
+## What this guide covers
+
+This guide will take you through the first basic steps to get familiar with your data and prepare for more detailed analyses.
+Other documents will go into more detail about those specific analyses that allow you to answer your research questions. 
+
+1.  [Good Record Keeping](/record_keeping.html)
+
+2.  [Developing an Analysis Plan](/analysis_plan.qmd)
+
+3.  [Downloading Data from Qualtrics](/downloading.qmd)
+
+4.  [Cleaning Data (AKA Getting Data ready for analysis)](/cleaning.qmd)

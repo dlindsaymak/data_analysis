@@ -1,0 +1,81 @@
+---
+title: "Good Record Keeping"
+website:
+  back-to-top-navigation: true
+---
+
+![](images/good_notes.jpeg){fig-alt="A screenshot of the original 8bit Zelda game with the words: \"It's dangerous to go alone! Take this.\" and the sword is replaced with the words \"Clear and Copious Notes on your Study\"" fig-align="center" width="60%"}
+
+Keeping good notes while you are working on your studies is essential.
+It is a key feature to creating replicable experiments and fundamental to conducting [Open Science](https://spsp.org/resources/multimedia/experts/openscience).
+You should always aim for another person to be able to see where you are with your study (at any time point), be able to understand what you have done so far, and also be able to continue the study without disruption.
+
+Our lab is big on collaboration so create your documents with these people in mind:
+
+-   Your current co-collaborators so they know exactly what is happening with the study
+
+-   You in the future when you come back to the study after some time away
+
+-   Another researcher in our lab that will take over this study once you graduate
+
+-   External researchers that may request details of our study to replicate it or build off it for their own research
+
+## Before Analysis
+
+Before you even start analyzing data you want to be thinking about keeping good records.
+While you are developing your study you will have several clear documents that you will refer back to during analysis.
+These include:
+
+-   A spreadsheet of all your variables/items 
+
+    -   Details where they came from, how you plan to use them in your analysis, and any notes on these items
+
+-   An Analysis Plan
+
+    -   Exactly how you will deal with your data once you have collected it
+
+Creating your analysis plan is discussed below.
+Creating the spreadsheet will be discussed in another guide.
+
+Once you have your data and you are cleaning it up (see the instructions below) you should be keeping notes of literally everything you do.
+If you decide to clean your data in Excel, then create a text document that records everything you do to that data so you can replicate it.
+If you use R (which I recommend) you can keep notes using \# that describes what every piece of code means.
+I’m always of the opinion that more notes are better.
+It doesn’t matter if it seems redundant, add the note because you (or another person) will be grateful for those notes later. 
+
+## During Analysis
+
+Every step of the analysis process needs to be recorded.
+As with your data cleaning, make notes of every analysis you do and the results of these analyses. 
+
+I recommend creating an Analysis Document (example here) that is based on your Analysis Plan and records everything you do during your analysis.
+This way you can refer back to this when you are writing up your results to see exactly what you did at what step.
+
+Similarly, keep good notes in your R script for your analyses.
+If you have lots of different analyses to run I recommend creating different R script files to make it easier to locate (e.g. Preliminary analysis, hypothesis testing, exploratory analysis, factor analyses).
+But make sure you note if you need to run any other scripts for that particular script to run.
+Add this to the top of your R script so you quickly see what needs to be done.
+This way you aren’t pulling your hair out wondering why your script isn’t running.
+
+An example of the notes at the top of one of my R scripts:
+
+```         
+# Exploratory Analyses for Choice vs. Compliance Study
+# Run the following scripts before working on this code:
+# CvC_cleaning.R
+# CvC_prelim.R
+
+# Make sure the following packages are installed
+
+#install.packages('tidyverse') 
+#install.packages('Hmisc') #for correlations 
+#install.packages('emmeans') #estimated means
+```
+
+## After Analysis
+
+Even after analysis you’ll have record keeping that needs to be updated.
+You’ll inevitably get feedback on your results in lab meetings that you’ll need to note.
+Keep these in your analysis document under a section called “to be looked at” or similar. 
+
+You should also include a brief write up of your analyses in your Analysis document so you can easily refer to them when writing a paper or presenting results from your study.
